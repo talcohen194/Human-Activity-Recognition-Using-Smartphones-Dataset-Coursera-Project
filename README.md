@@ -34,15 +34,12 @@ In this project I used R, took a raw data and make it a tidy data set.
 1.	I click the link with the zip files and download it.
 2.	I unzip the files by moving the "UCI HAR Dataset" file to a different folder ("project").
 3.	I open an R script, called it "run_analysis"  and followed the project steps:
-a.	I load the test and train files into R.
-b.	I labeled the data set with descriptive variable names using the descriptions in the "features" file.
-c.	I merged the test files and then I merged the training files. After that I merged the two to create one data set.
-d.	I used descriptive activity names from the "activity_labels" file to name the activities in the data set (each activity were assign to a number before).
-e.	I extracted only the measurements on the mean and standard deviation for each measurement. The variables that left were the activity labels, the subject labels and 79 more variables that contains mean, meanFreq or std measurements (10299 obs).
-
- 
-
-f.	From this data set I created an independent tidy data set. I sorted the data by groups according to activity and then subject and run the mean function.
+-	I load the test and train files into R.
+-	I labeled the data set with descriptive variable names using the descriptions in the "features" file.
+-	I merged the test files and then I merged the training files. After that I merged the two to create one data set.
+-	I used descriptive activity names from the "activity_labels" file to name the activities in the data set (each activity were assign to a number before).
+-	I extracted only the measurements on the mean and standard deviation for each measurement. The variables that left were the activity labels, the subject labels and 79 more variables that contains mean, meanFreq or std measurements (10299 obs).
+-	From this data set I created an independent tidy data set. I sorted the data by groups according to activity and then subject and run the mean function.
 4.	The final data set was saved under "tidy.data.set.txt", the R script was saved under "run_analysis.r" and they're both uploaded to this repo.
 
  
