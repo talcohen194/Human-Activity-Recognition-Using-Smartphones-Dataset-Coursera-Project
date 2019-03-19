@@ -5,6 +5,7 @@ The data was collected from the accelerometers from the Samsung Galaxy S smartph
 
 The data for the project can be find here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 It includes the following files:
 - 'README.txt'
 
@@ -22,14 +23,16 @@ It includes the following files:
 
 - 'test/y_test.txt': Test labels.
 
-##Repository Contents
+#Repository Contents
+
 This repo contains:
 -	A codebook: where you can find explanations about the variables, the transformations and resulting data. 
 -	A readME file: explaining the purpose and contents of this repository.
 -	A run_analysis R file: containing the R code for this project.
 -	A tidy.data file: that contains the final result, the raw data that transfer to a tidy data that can be used for later analysis.
 
-##RUN
+#RUN
+
 In this project I used R, took a raw data and make it a tidy data set.
 1.	I click the link with the zip files and download it.
 2.	I unzip the files by moving the "UCI HAR Dataset" file to a different folder ("project").
