@@ -23,7 +23,7 @@ It includes the following files:
 
 - 'test/y_test.txt': Test labels.
 
-#Repository Contents
+## Repository Contents
 
 This repo contains:
 -	A codebook: where you can find explanations about the variables, the transformations and resulting data. 
@@ -31,7 +31,7 @@ This repo contains:
 -	A run_analysis R file: containing the R code for this project.
 -	A tidy.data file: that contains the final result, the raw data that transfer to a tidy data that can be used for later analysis.
 
-#RUN
+## RUN
 
 In this project I used R, took a raw data and make it a tidy data set.
 1.	I click the link with the zip files and download it.
